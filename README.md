@@ -1,3 +1,20 @@
+# Requirments 
+1. Node.JS installed
+
+# Commands to start
+1. npm i 
+2. npm start
+
+# Technologies used
+1. React js
+2. Redux js
+3. Redux saga
+4. Formik
+5. Axios
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
