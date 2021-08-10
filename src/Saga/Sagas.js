@@ -6,8 +6,8 @@ import { constants } from "../actioncreators/Constants";
 let url = "https://reqres.in/api";
 
 export function* sagafunction() {
-  yield takeLatest("Login", login);
-  yield takeLatest("Register", register);
+  yield takeLatest(constants.Login, login);
+  yield takeLatest(constants.Register, register);
 }
 
 function* login(action) {

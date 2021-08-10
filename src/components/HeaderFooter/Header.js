@@ -1,6 +1,5 @@
 import { NavLink, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { useEffect, useState } from "react";
 
 const Header = ({ state }) => {
   if (state?.error) alert(state.error);

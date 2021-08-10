@@ -7,21 +7,6 @@ import { bindActionCreators } from "redux";
 import { register } from "../../actioncreators/ActionCreators";
 
 class SignupForm extends React.Component {
-  constructor(props) {
-    super(props);
-    // console.log(
-    //   "Register From props",
-    //   props,
-    //   "username",
-    //   read_cookie("username")
-    // );
-  }
-
-  // componentDidUpdate(props) {
-  //   console.log("props", props);
-  //   if (props.state?.error) alert(props.state.error);
-  // }
-
   render() {
     return (
       <>
